@@ -1,0 +1,113 @@
+
+/* default page styles */
+body {
+    font-family: arial, verdana, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    margin: 20px 20px 0 20px;
+}
+
+/* main heading */
+h1 {
+    font-size: 42px;
+    text-align: center;
+    padding: 15px;
+}
+
+/* section headings */
+h2 {
+    font-size: 30px;
+    color: #0d0d0d;
+}
+
+/* default paragraphs */
+p {
+    font-size: 24px;
+    padding: 10px 0 0 10px;
+}
+
+/* default images */
+img {
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+    border: 10px dashed #ffffff;
+}
+
+/* default content boxes */
+div {
+    min-height: 125px;
+    padding: 20px;
+    border: 3px solid #ffffff;
+}
+
+/* introduction */
+.introduction {
+    border-radius: 15px;
+    margin-top: 15px;
+    line-height: 2;
+}
+
+/* shared layout for red and yellow boxes */
+.red,
+.yellow {
+    text-align: right;
+    margin-left: 50px;
+    border-width: 0 0 2px 5px;
+}
+
+/* shared layout for blue and green boxes */
+.blue,
+.green {
+    text-align: left;
+    margin-right: 50px;
+    border-width: 2px 5px 0 0;
+}
+
+/* red box */
+.red {
+    background-color: #ff0000;
+}
+
+/* blue box */
+.blue {
+    background-color: #0000ff;
+}
+
+.blue h2,
+.blue p {
+    color: #c4c4c4;
+}
+
+/* yellow box */
+.yellow {
+    background-color: #ffff00;
+}
+
+.yellow p {
+    color: #707070;
+}
+
+/* green box */
+.green {
+    background-color: #008500;
+}
+
+/* footer */
+footer {
+    background: linear-gradient(
+        to right,
+        #000000 0%,
+        #0000ff 25%,
+        #0066ff 70%,
+        #000000 100%
+    );
+    border: 5px solid #ffffff;
+}
+
+/* paragraphs inside the footer */
+footer p {
+    font-size: 20px;
+    text-align: right;
+    padding: 15px 15px 15px 0;
+}
